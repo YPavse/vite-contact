@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=PT+Serif:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Roboto+Mono:wght@100&family=Roboto+Serif:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.contactMain{
+  display: flex;
+  height: calc(100vh-80px);
+  flex-direction: column;
+}
